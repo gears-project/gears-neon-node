@@ -1,12 +1,12 @@
 [package]
-name = "gears-node"
+name = "gears_ffi"
 version = "0.1.0"
 authors = ["Michiel Kalkman <michiel@nosuchtype.com>"]
 license = "MIT"
 build = "build.rs"
 
 [lib]
-name = "gears_node"
+name = "gears_ffi"
 crate-type = ["dylib"]
 
 [build-dependencies]
@@ -14,3 +14,8 @@ neon-build = "0.1.18"
 
 [dependencies]
 neon = "0.1.18"
+xflow = "0.1.1"
+
+[replace]
+# "xflow:0.1.1" = { path = "/home/michiel/dev/github/xflow-rust" }
+"xflow:0.1.1" = { git = 'https://github.com/michiel/xflow-rust' }
