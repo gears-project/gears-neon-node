@@ -33,7 +33,7 @@ install:
 # http://docs.travis-ci.com/user/pull-requests/
 script:
   - npm test
-  - npm run lint
+#  - npm run lint
 
 notifications:
   email: false
