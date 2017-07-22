@@ -1,3 +1,3 @@
-# gears-node
+# gears-neon-node
 
-NodeJS gears API
+NodeJS gears API, native bindings via neon-rust

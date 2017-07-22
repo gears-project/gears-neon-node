@@ -1,6 +1,6 @@
 #[macro_use]
 extern crate neon;
-extern crate xflow;
+extern crate gears;
 
 use neon::vm::{Call, JsResult};
 use neon::js::{JsString, JsBoolean};

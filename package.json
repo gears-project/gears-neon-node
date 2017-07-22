@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/michiel/gears-node"
+    "url": "https://github.com/gears-project/gears-neon-node"
   },
   "author": "Michiel Kalkman <michiel@nosuchtype.com>",
   "license": "MIT",

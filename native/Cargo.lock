@@ -4,7 +4,7 @@ version = "0.1.0"
 dependencies = [
  "neon 0.1.18 (registry+https://github.com/rust-lang/crates.io-index)",
  "neon-build 0.1.18 (registry+https://github.com/rust-lang/crates.io-index)",
- "xflow 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "gears 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -164,7 +164,7 @@ version = "0.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
-name = "xflow"
+name = "gears"
 version = "0.1.1"
 dependencies = [
  "glob 0.2.11 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -178,10 +178,10 @@ dependencies = [
 ]
 
 [[package]]
-name = "xflow"
+name = "gears"
 version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-replace = "xflow 0.1.1"
+replace = "gears 0.1.1"
 
 [[package]]
 name = "yaml-rust"
@@ -215,5 +215,5 @@ dependencies = [
 "checksum syn 0.11.11 (registry+https://github.com/rust-lang/crates.io-index)" = "d3b891b9015c88c576343b9b3e41c2c11a51c219ef067b264bd9c8aa9b441dad"
 "checksum synom 0.11.3 (registry+https://github.com/rust-lang/crates.io-index)" = "a393066ed9010ebaed60b9eafa373d4b1baac186dd7e008555b0f702b51945b6"
 "checksum unicode-xid 0.0.4 (registry+https://github.com/rust-lang/crates.io-index)" = "8c1f860d7d29cf02cb2f3f359fd35991af3d30bac52c57d265a3c461074cb4dc"
-"checksum xflow 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "0f9f28bfa9c43cf52f1515cb83910b88de6f62ba051f84f8446981b2c1f2280c"
+"checksum gears 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "0f9f28bfa9c43cf52f1515cb83910b88de6f62ba051f84f8446981b2c1f2280c"
 "checksum yaml-rust 0.3.5 (registry+https://github.com/rust-lang/crates.io-index)" = "e66366e18dc58b46801afbf2ca7661a9f59cc8c5962c29892b6039b4f86fa992"
